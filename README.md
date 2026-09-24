@@ -83,21 +83,11 @@ cd Hangman
 ````
 
 ### 2. Install Dependencies
+```bash
+npm install
+```
 
-1.  **Navigate to the frontend directory:**
-
-    ```bash
-    cd frontend # Adjust if your frontend folder has a different name (e.g., 'React', 'client', 'app')
-    ```
-    *   **NOTE:** If your project structure has `index.html`, `src`, `package.json` directly in the root `Hangman` folder, you can skip `cd frontend` and install dependencies directly from the root.
-
-2.  **Install dependencies (using npm):**
-
-    ```bash
-    npm install
-    ```
-
-    ### 3. Start the Development Server
+### 3. Start the Development Server
 ```bash
 npm run dev
 ````
